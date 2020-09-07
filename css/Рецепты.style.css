@@ -1,0 +1,329 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&family=PT+Sans+Narrow&display=swap);
+html{
+	display: block;
+	margin: 0;
+	padding: 0;
+	font-family: 'Noto Serif', serif;
+}
+/* Спецификация */
+
+body {
+	margin: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	background-color: #faf8f1;
+	-webkit-overflow-scrolling: touch;
+	-webkit-font-smoothing: antialiased;
+}
+
+main {
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	letter-spacing: 2px;
+	font-weight: 400;
+	font-family: 'Noto Serif', serif;
+}
+aside {
+	display: block;
+	position: relative;
+	background-color: #FFFFFF;
+	box-sizing: border-box;
+	font-size: 14px;
+	font-weight: 400;
+}
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+a:hover {
+	text-decoration: none;
+	color: inherit;
+}
+.main_nav {
+	display: block;
+	position: relative;
+	height: 60px;
+	width: 100%;
+	font-family: "Open Sans Condensed";
+	text-transform: uppercase;
+}
+
+.main_nav ul {
+	display: flex;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.main_nav ul li {
+	display: inline-block;
+	font-size: 10px;
+	letter-spacing: 3px;
+	color: #1E5627;
+	font-weight: 900;
+}
+
+.main_nav ul li:not(:last-child):after {
+	content: '>';
+	margin: 0 10px;
+}
+
+.recipes_container {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	height: 100%;
+	margin: 0 13vw;
+}
+/*Первая секция*/
+
+.common_recipes_info {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+.recipes_title {
+	display: flex;
+	justify-content: center;
+	margin: 30px 0 40px;
+}
+
+.recipes_title h1 {
+	color: black;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: 900;
+	letter-spacing: 5px;
+	margin: 0;
+}
+
+figure {
+	display: block;
+	position: relative;
+	width: 100%;
+	margin: 0;
+}
+
+figure>img {
+	width: inherit;
+	height: 460px;
+	object-fit: cover;
+}
+
+.description_wrapper {
+	display: flex;
+	justify-content: flex-end;
+	position: relative;
+	border-bottom: 1px solid black;
+	padding: 16px 0;
+}
+.description_wrapper div {
+	display: flex;
+	position: relative;
+	align-items: center;
+	text-transform: uppercase;
+	font-size: 12px;
+	opacity: 0.9;
+	text-align: center;
+}
+.description_wrapper div:not(:last-child) {
+	padding-right: 15px;
+}
+
+.count_ingredient {
+	border-right: 1px solid black;
+}
+.count_portion {
+	padding-left: 15px;
+}
+/*Вторая секция*/
+label>h2,h3 {
+	text-transform: uppercase;
+}
+.calories {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+}
+
+.calories label {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	justify-content: center;
+	margin: 20px 0 15px;
+}
+.calories label>h2 {
+	font-size: 20px;
+	letter-spacing: 2px;
+	margin: 0;
+	font-weight: 900;
+}
+
+.formula_wrapper {
+	display: flex;
+	flex-basis: 25%;
+	width: 100%;
+	margin-top: 15px;
+	margin-bottom: 45px;
+}
+
+.formula {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+	align-items: center;
+}
+
+.formula span {
+	font-size: 12px;
+	text-transform: uppercase;
+	opacity: 0.9;
+
+}
+
+.formula span:last-child {
+	font-size: 11px;
+}
+
+.formula span:first-child {
+	padding-bottom: 10px;
+
+}
+
+.formula span:nth-child(2) {
+	opacity: 1;
+	font-size: 13px;
+	font-weight: 900;
+}
+/*Третья секция*/
+
+.ingredients {
+	display: flex;
+	align-items: flex-end;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+}
+
+.ingredient_instruction {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	padding: 25px 0;
+	margin: 0;
+
+}
+
+.ingredient_instruction h3 {
+	font-size: 18px;
+	letter-spacing: 2px;
+	margin: 0;
+	font-weight: 900;
+
+}
+
+.ingredients_wrapper {
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+	width: 100%;
+	height: 100%;
+	flex-wrap: nowrap;
+	margin-bottom: 20px;
+	opacity: 0.8;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: none;
+
+}
+.ingredient {
+	display: flex;
+	position: relative;
+	justify-content: flex-start;
+}
+
+.ing_for span {
+	font-weight: 900;
+	text-transform: uppercase;
+	padding: 5px 0;
+	color: #663299;
+}
+
+.ingredient span {
+	margin-right: 20px;
+	white-space: nowrap;
+}
+
+hr {
+	border-bottom: 1px solid black;
+	width: 100%;
+	margin: 0;
+	border-top: 0;
+}
+
+.count_grams {
+	display: flex;
+	position: relative;
+	padding-left: 20px;
+}
+
+.count_grams span {
+	display: inline-block;
+	white-space: nowrap;
+}
+
+/*Четвертая секция*/
+
+.instruction {
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+}
+.item_instruction{
+	display: block;
+	box-sizing: border-box;
+	position: relative;
+	padding-inline-start: 20px;
+	margin-bottom: 40px;
+	font-size: 14px;
+	opacity: 0.8;
+}
+.item_instruction li {
+	list-style-type: decimal;
+	font-weight: 400;
+	margin-bottom: 15px;
+	text-transform: none;
+	letter-spacing: 2px;
+}
+
+@media screen and (max-width: 991px) {
+	.calories label {
+		text-align: center;
+	}
+	.recipes_title h1 {
+		text-align: center;
+	}
+}

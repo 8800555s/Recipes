@@ -1,0 +1,323 @@
+
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&family=PT+Sans+Narrow&display=swap);
+html{
+	display: block;
+	margin: 0;
+	padding: 0;
+	font-family: "Open Sans Condensed";
+}
+/* Спецификация */
+body {
+	margin: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	background-color: #faf8f1;
+	-webkit-overflow-scrolling: touch;
+	-webkit-font-smoothing: antialiased;
+	font-family: "Open Sans Condensed";
+}
+
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+	color: inherit;
+}
+main {
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: 400;
+	font-family: 'Noto Serif', serif;
+}
+aside {
+	display: block;
+	position: relative;
+	background-color: #FFFFFF;
+	box-sizing: border-box;
+}
+.recipes_container {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	height: 100%;
+	margin: 0 5vw;
+}
+.main_nav {
+	display: block;
+	position: relative;
+	height: 60px;
+	width: 100%;
+	font-family: "Open Sans Condensed";
+}
+
+.main_nav ul {
+	display: flex;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.main_nav ul li {
+	display: inline-block;
+	font-size: 10px;
+	letter-spacing: 3px;
+	color: #1E5627;
+	font-weight: 900;
+}
+
+.main_nav ul li:not(:last-child):after {
+	content: '>';
+	margin: 0 10px;
+}
+
+.recipes_group {
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+	width: 100%;
+	height: 100%;
+}
+
+.name_category {
+	display: flex;
+	justify-content: center;
+	margin: 30px 0 40px;
+}
+.name_category h1 {
+	color: #333333;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: 900;
+	letter-spacing: 5px;
+	margin: 0;
+}
+
+.recipes_group h1:before {
+	content: "";
+	background-image: url(img/вилка.png);
+	display: inline-block;
+	width: 35px;
+	height: 17px;
+	background-size: cover;
+	background-position: center;
+	margin-right: 15px;
+}
+
+.recipes_group h1:after {
+	content: "";
+	background-image: url(img/вилка.png);
+	display: inline-block;
+	transform: rotate(180deg);
+	width: 35px;
+	height: 17px;
+	background-size: cover;
+	background-position: center;
+	margin-left: 15px;
+}
+article {
+	display: flex;
+	position: relative;
+	padding-bottom: 40px;
+}
+article:last-child {
+	padding-bottom: 60px;
+}
+.recipes_img {
+	display: block;
+	position: relative;
+	width: 320px;
+	height: 250px;
+
+}
+.recipes_img img {
+	width: 320px;
+	height: 250px;
+	object-fit: cover;
+}
+
+.recipes_info {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 55%;
+	margin-left: 3vw;
+	padding-left: 20px;
+	border-left: 1px solid black;
+	font-family: 'Noto Serif', serif;
+}
+
+.ri_text {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	justify-content: center;
+	font-family: "Open Sans Condensed";
+}
+.main_nav_style {
+	display: inline-block;
+    font-size: 10px;
+    letter-spacing: 3px;
+    color: #1E5627;
+    font-weight: 900;
+}
+
+.ri_name {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin-bottom: 32px;
+}
+.ri_name h2 {
+	font-size: 20px;
+	font-family: 'Noto Serif', serif;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: 900;
+	margin: 0;
+}
+.ri_ing {
+	display: flex;
+	justify-content: flex-start;
+	width: 100%;
+	position: relative;
+	letter-spacing: 2px;
+	flex-wrap: nowrap;
+}
+.ri_ing span:first-child {
+	margin-right: 20px;
+}
+.ri_it {
+	display: flex;
+	position: relative;
+	justify-content: flex-start;
+	border-left: 1px solid black;
+}
+.ri_it div{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	height: 100%;
+	margin-right: 7px;
+}
+.ri_it div:first-child {
+	margin-left: 10px;
+}
+.ri_ing div img {
+	position: relative;
+	width: 20px;
+	height: 20px;
+	margin-right: 5px;
+}
+.ri_name span {
+	color: #8C8C8C;
+	letter-spacing: 2px;
+}
+.link_rec {
+	display: flex;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+	height: 15%;
+	margin-bottom: 10px;
+	border: 1.2px solid #1E5627;
+	border-radius: 8px;
+	font-family: 'Noto Serif', serif;
+	font-weight: 900;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: 15px;
+}
+.link_rec a{
+	color: black;
+}
+.link_rec a:hover {
+	color: #1E5627;
+}
+
+/*Шапка*/
+
+
+@media screen and (max-width: 991px) {
+	article {
+		flex-direction: column;
+		align-items: center;
+		padding-bottom: 60px;
+	}
+
+	.recipes_group {
+		margin-bottom: 20px;
+	}
+
+	.recipes_info {
+		border: 0;
+		width: 320px;
+		margin: 0;
+		padding: 0;
+	}
+
+	.ri_text {
+		justify-content: flex-start;
+	}
+
+	.ri_text nav {
+		display: flex;
+		justify-content: center;
+		padding: 15px 0 10px 0;
+	}
+
+	.ri_name {
+		padding: 8px 0;
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 8px;
+	}
+
+	.ri_name h2 {
+		margin-bottom: 14px;
+		text-align: center;
+	}
+
+	.link_rec {
+		border: 0;
+		margin: 20px 15px 0;
+	}
+
+	.link_rec a {
+		text-align: center;
+		padding: 8px;
+		background-color: #ffb833;
+		border-radius: 20px;
+		font-size: 12px;
+		letter-spacing: 3px;
+	}
+
+	.link_rec a:hover {
+		color: black;
+	}
+
+	.ri_ing {
+		font-size: 14px;
+		text-align: center;
+
+	}
+
+	.ri_ing span:first-child {
+		margin-right: 10px;
+	}
+}
+	

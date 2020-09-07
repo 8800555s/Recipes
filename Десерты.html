@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Десерты</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/Категории.style.css">
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+	<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<header id="header" class="header">
+		<!-- WEB NAV -->
+		<div class="container header_container d-none d-lg-flex">
+			<div class="header_wrapper">
+				
+				<nav class="header_nav">
+					<ul class="first_list">
+						<li class="item_first_list" id="logo_item">
+							<a class="header-logo" href=""> 
+								<img src="img/logo.png"> 
+							</a>
+						</li>
+						<li class="item_first_list"><a href="">Все рецепты</a></li>
+						<li class="item_first_list">
+							<a href="Горячие блюда.html">Горячие блюда</a>
+							<ul class="secondary_list">
+								<li><a href="Каталог рецептов/Каши.html">Каши</a></li>
+								<li><a href="">Супы</a></li>
+								<li><a href="">Макароны</a></li>
+								<li><a href="Каталог рецептов/Основные блюда.html">Основные блюда</a></li>
+								<li><a href="">Пицца</a></li>
+								<li><a href="">Роллы</a></li>
+								<li><a href="">Рагу</a></li>
+							</ul>
+						</li>
+						<li class="item_first_list">
+							<a href="Салаты.html">Салаты</a>
+							<ul class="secondary_list">
+								<li><a href="">Боул</a></li>
+								<li><a href="">Сытные</a></li>
+								<li><a href="">Легкие</a></li>
+							</ul>
+						</li>
+						<li class="item_first_list">
+							<a href="Закуски.html">Закуски</a>
+							<ul class="secondary_list">
+								<li><a href="">Тарталетки</a></li>
+								<li><a href="">Пасты</a></li>
+								<li><a href="">Заготовки</a></li>
+								<li><a href="">Чипсы</a></li>
+								<li><a href="">Тосты</a></li>
+								<li><a href="">Снэки</a></li>
+							</ul>
+						</li>
+						<li class="item_first_list">
+							<a href="Выпечка.html">Выпечка</a>
+							<ul class="secondary_list">
+								<li><a href="">Сдоба</a></li>
+								<li><a href="">Пироги</a></li>
+								<li><a href="">Блины</a></li>
+								<li><a href="">Хлеб</a></li>
+								<li><a href="">Печенье</a></li>
+							</ul>
+						</li>
+						<li class="item_first_list">
+							<a href="Десерты.html">Десерты</a>
+							<ul class="secondary_list">
+									<li><a href="">Мороженое</a></li>
+						<li><a href="">Конфеты</a></li>
+						<li><a href="">Мармелад</a></li>
+						<li><a href="">Торты</a></li>
+						<li><a href="">Шоколад</a></li>
+						<li><a href="Каталог рецептов/Другое.html">Другое</a></li>
+							</ul>
+						</li>
+						<li class="item_first_list">
+							<a href="Напитки.html">Напитки</a>
+							<ul class="secondary_list">
+								<li><a href="">Смузи</a></li>
+								<li><a href="">Йогурты</a></li>
+								<li><a href="">Горячие</a></li>
+								<li><a href="">Холодые</a></li>
+							</ul>
+						</li>
+						<li class="item_first_list">
+							<a href="Соусы.html">Соусы</a>
+							<ul class="secondary_list">
+								<li><a href="">Острые</a></li>
+								<li><a href="">Кисло-сладкие</a></li>
+								<li><a href="">Сладкие</a></li>
+								<li><a href="">Кремовые</a></li>
+								<li><a href="">Соленые</a></li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+
+			</div>
+		</div>
+		<!-- END WEB NAV -->
+		<!-- MOBILE MENU -->
+		<div class="header_mobile_container d-md-flex d-lg-none d-sm-flex">
+			<div class="header_mobile_nav ">
+				<div class="header_hamburger_item">
+					<div class="header_hamburger">
+						<span></span>
+					</div>
+				</div>
+				<a class="header-logo" href=""> 
+					<img src="img/logo.png"> 
+				</a>
+			</div>
+		</div>
+		<!-- MENU -->
+		<div class="overlay"></div>
+
+		<div id="main_menu" class="menu">
+			<ul id="menu_wrapper" class="menu_wrapper">
+				<li>
+					<div class="menu_name_category">
+						<a href="Горячие блюда.html" class="menu_item">Горячие блюда</a>
+						<span class="list"></span>
+					</div>
+					<ul class="item_list">
+						<li><a href="Каталог рецептов/Каши.html">Каши</a></li>
+						<li><a href="">Супы</a></li>
+						<li><a href="">Макароны</a></li>
+						<li><a href="Каталог рецептов/Основные блюда.html">Основные блюда</a></li>
+						<li><a href="">Пицца</a></li>
+						<li><a href="">Роллы</a></li>
+						<li><a href="">Рагу</a></li>
+					</ul>
+				</li>
+				<li>
+					<div class="menu_name_category">
+						<a href="Салаты.html" class="menu_item">Салаты</a>
+						<span class="list"></span>
+					</div>
+					<ul class="item_list">
+						<li><a href="">Боул</a></li>
+						<li><a href="">Сытные</a></li>
+						<li><a href="">Легкие</a></li>
+					</ul>
+				</li>
+				<li>
+					<div class="menu_name_category">
+						<a href="Закуски.html" class="menu_item">Закуски</a>
+						<span class="list"></span>
+					</div>
+					<ul class="item_list">
+						<li><a href="">Тарталетки</a></li>
+						<li><a href="">Паста</a></li>
+						<li><a href="">Заготовки</a></li>
+						<li><a href="">Чипсы</a></li>
+						<li><a href="">Тосты</a></li>
+						<li><a href="">Снеки</a></li>
+					</ul>
+				</li>
+				<li>
+					<div class="menu_name_category">
+						<a href="Выпечка.html" class="menu_item">Выпечка</a>
+						<span class="list"></span>
+					</div>
+					<ul class="item_list">
+						<li><a href="">Сдоба</a></li>
+						<li><a href="">Хлеб</a></li>
+						<li><a href="">Блины</a></li>
+						<li><a href="">Пироги</a></li>
+						<li><a href="">Печенье</a></li>
+					</ul>
+				</li>
+				<li>
+					<div class="menu_name_category">
+						<a href="Десерты.html" class="menu_item">Десерты</a>
+						<span class="list"></span>
+					</div>
+					<ul class="item_list">
+						<li><a href="">Мороженое</a></li>
+						<li><a href="">Конфеты</a></li>
+						<li><a href="">Мармелад</a></li>
+						<li><a href="">Торты</a></li>
+						<li><a href="">Шоколад</a></li>
+						<li><a href="Каталог рецептов/Другое.html">Другое</a></li>
+					</ul>
+				</li>
+				<li>
+					<div class="menu_name_category">
+						<a href="Напитки.html" class="menu_item">Напитки</a>
+						<span class="list"></span>
+					</div>
+					<ul class="item_list">
+						<li><a href="">Смузи</a></li>
+						<li><a href="">Йогурты</a></li>
+						<li><a href="">Горячие</a></li>
+						<li><a href="">Холодые</a></li>
+					</ul>
+				</li>
+				<li>
+					<div class="menu_name_category">
+						<a href="Соусы.html" class="menu_item">Соусы</a>
+						<span class="list"></span>
+					</div>
+					<ul class="item_list">
+						<li><a href="">Острые</a></li>
+						<li><a href="">Кисло-сладкие</a></li>
+						<li><a href="">Сладкие</a></li>
+						<li><a href="">Кремовые</a></li>
+						<li><a href="">Соленые</a></li>
+					</ul>
+				</li>
+			</ul>
+
+		</div>
+		<script src="js/javascript.js"></script>
+	</header>
+
+
+	<main>
+		<div class="container">
+			<div class="main_wrapper">
+				<div class="main_nav">
+					<ul>
+						<li>Все рецепты</li>
+						<li>Десерты</li>
+					</ul>
+				</div>
+				<aside>
+					<div class="category_container">
+						<label class="main_name">
+							<h1>Десерты</h1>
+						</label>
+
+						<section id="category" class="category">
+							<div class="category_wrapper">
+								<figure>
+									<img src="img/Десерты/Мороженое.jpg">
+								</figure>
+								<div class="info_wrapper">
+									<a class="link_category" href="">
+										<h2>Мороженое</h2>
+										<hr>
+										<span>5 рецептов</span>
+									</a>
+								</div>
+							</div>
+							<div class="category_wrapper">
+								<figure>
+									<img src="img/Десерты/Конфеты.jpg">
+								</figure>
+								<div class="info_wrapper">
+									<a class="link_category" href="">
+										<h2>Конфеты</h2>
+										<hr>
+										<span>5 рецептов</span>
+									</a>
+								</div>
+							</div>
+							<div class="category_wrapper">
+								<figure>
+									<img src="img/Десерты/Мармелад.jpg">
+								</figure>
+								<div class="info_wrapper">
+									<a class="link_category" href="">
+										<h2>Мармелад</h2>
+										<hr>
+										<span>5 рецептов</span>
+									</a>
+								</div>
+							</div>
+							<div class="category_wrapper">
+								<figure>
+									<img src="img/Десерты/Торты.jpg">
+								</figure>
+								<div class="info_wrapper">
+									<a class="link_category" href="">
+										<h2>Торты</h2>
+										<hr>
+										<span>5 рецептов</span>
+									</a>
+								</div>
+							</div>
+							<div class="category_wrapper">
+								<figure>
+									<img src="img/Десерты/Шоколад.jpg">
+								</figure>
+								<div class="info_wrapper">
+									<a class="link_category" href="">
+										<h2>Шоколад</h2>
+										<hr>
+										<span>5 рецептов</span>
+									</a>
+								</div>
+							</div>
+							<div class="category_wrapper">
+								<figure>
+									<img src="img/Десерты/Пастила.jpg">
+								</figure>
+								<div class="info_wrapper">
+									<a class="link_category" href="Каталог рецептов/Другое.html">
+										<h2>Другое</h2>
+										<hr>
+										<span>5 рецептов</span>
+									</a>
+								</div>
+							</div>
+						</section>
+					</div>
+				</aside>
+			</div>
+		</div>
+	</main>
+
+	<footer>
+		<div class="container footer_container">
+			<section class="info_footer">
+				<p>Все права на материалы, находящиеся на сайте, охраняются в соответствии с действующим законодательством. При любом использовании материалов сайта, гиперссылка на сайт обязательна.</p>
+				<p>Администрация сайта не несет ответственности за результат применения приведенных кулинарных рецептов, методик их приготовления, кулинарных и прочих рекомендаций, работоспособность ресурсов, на которые размещены гиперссылки, и за содержание рекламных объявлений. Администрация сайта может не разделять мнения авторов статей, размещённых на сайте</p>
+			</section>
+			<nav class="recipes_footer">
+
+				<div class="recipes_contant">
+					<label>
+						<h1 class="recipes_column_title">Горячие блюда</h1>
+					</label>
+					<ul class="recipes_list">
+						<li class="recipes_column_item">
+							<a class="recipes_column_link" href="">Каши</a>
+						</li>
+						<li class="recipes_column_item">
+							<a class="recipes_column_link" href="">Супы</a>
+						</li>
+						<li class="recipes_column_item">
+							<a class="recipes_column_link" href="">Макароны</a>
+						</li>
+						<li class="recipes_column_item">
+							<a class="recipes_column_link" href="">Макароны</a>
+						</li>
+						<li class="recipes_column_item">
+							<a class="recipes_column_link" href="">Макароны</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="recipes_contant">
+					<label>
+						<h1 class="recipes_column_title">Салаты</h1>
+					</label>
+					<ul class="recipes_list">
+						<li class="recipes_column_item">
+							<a class="recipes_column_link" href="">Боул</a>
+						</li>
+						<li class="recipes_column_item">
+							<a class="recipes_column_link" href="">Острые</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="recipes_contant">
+					<label>
+						<h1 class="recipes_column_title">Закуски</h1>
+					</label>
+					<ul class="recipes_list">
+						<li class="recipes_column_item">
+							<a class="recipes_column_link" href="">Тарталетки</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="recipes_contant">
+					<label>
+						<h1 class="recipes_column_title">Выпечка</h1>
+					</label>
+					<ul class="recipes_list">
+						<li class="recipes_column_item">
+							<a class="recipes_column_link" href="">Кексы</a>
+						</li>
+						<li class="recipes_column_item">
+							<a class="recipes_column_link" href="">Торты</a>
+						</li>
+						<li class="recipes_column_item">
+							<a class="recipes_column_link" href="">Пироги</a>
+						</li>
+						<li class="recipes_column_item">
+							<a class="recipes_column_link" href="">Блины</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="recipes_contant">
+					<label>
+						<h1 class="recipes_column_title">Пицца</h1>
+					</label>
+					<ul class="recipes_list">
+						<li class="recipes_column_item">
+							<a class="recipes_column_link" href="">Мясные</a>
+						</li>
+						<li class="recipes_column_item">
+							<a class="recipes_column_link" href="">Острые</a>
+						</li>
+						<li class="recipes_column_item">
+							<a class="recipes_column_link" href="">Вегетарианские</a>
+						</li>
+					</div>
+
+				</nav>
+			</div>
+		</footer>
+
+
+	</body>
+	</html>

@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&family=PT+Sans+Narrow&display=swap);
+
+footer {
+	display: block;
+	position: relative;
+	bottom: 0;
+	background-color:  #e6e6e6; 
+	padding-top: 44px;
+	font-family: "Open Sans Condensed";
+	letter-spacing: 1px;
+}
+.footer_container {
+	padding-left: 22px;
+	padding-right: 22px;
+}
+
+.info_footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border-bottom: 1px solid #d2d2d7;
+    color: #505050;
+    padding: 17px 0 11px;
+    font-size: 15px;
+}
+.recipes_footer {
+	display: flex;
+	padding: 20px 0 44px;
+	justify-content: space-between;
+}
+.recipes_contant {
+	display: flex;
+	flex-direction: column;
+}
+.recipes_contant label {
+	
+}
+.recipes_column_title {
+	font-size: 16px;
+	font-weight: 600;
+	margin: 0;
+    text-transform: uppercase;
+}
+.recipes_list {
+	margin-right: 20px;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.recipes_column_item {
+	display: list-item;
+    pointer-events: auto;
+    margin-bottom: .8em;
+}
+.recipes_column_item:last-child {
+	margin-bottom: 0;
+}
+.recipes_column_link {
+	color: #515154;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+.main_nav {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 0 22px;
+}

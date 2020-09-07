@@ -1,0 +1,131 @@
+
+html{
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	display: block;
+}
+
+header {
+	display: block; 
+	background-color: #ffb833;
+	height: 70px;
+	max-height: 80px; 
+	width: 100%;
+}
+
+nav, main{
+	width: 100%;
+	height: 100%;
+	padding: 0 22px;
+	margin: 0 auto;
+	max-width: 980px;
+	position: relative;
+}
+
+.header-logo{
+	align-items: center;
+	 float: left; 
+	 width: 70px; 
+}
+
+header img{
+	width: inherit;
+	height: inherit;
+}
+
+.header_list{
+	display: flex;
+	margin: 0;
+	padding: 0;
+	align-items: center;
+	width: inherit;
+	height: inherit;
+	justify-content: space-between;
+	text-transform: uppercase;
+}
+
+.header_list li {
+	list-style-type: none;
+	 margin-right: 20px;
+	 display: inline-block;
+	 position: relative;
+}
+
+.header_nav{
+	display: inline-block;
+	opacity: .8;
+	text-decoration: none;
+	font-size: 15px;
+	color: black;
+	padding: 0 10px;
+	font-family: "Arial",sans-serif;
+	font-weight: 600;
+}
+
+footer {
+	background-color:  #e6e6e6; 
+	padding-top: 44px;
+}
+.footer_contant {
+	margin: 0 auto;
+    max-width: 980px;
+    padding: 0 22px;
+}
+
+.info_footer {
+	border-bottom: 1px solid #d2d2d7;
+    color: #86868b;
+    padding: 17px 0 11px;
+    font-size: 13px;
+    font-family: "Arial",sans-serif;
+}
+.recipes_footer {
+	display: flex;
+	padding-top: 20px;
+	justify-content: space-between;
+}
+.recipes_contant {
+	display: flex;
+	flex-direction: column;
+}
+.recipes_contant label {
+	
+}
+.recipes_column_title {
+	font-size: 12px;
+	letter-spacing: -.01em;
+	font-weight: 600;
+	margin: 0;
+    font-family: "Arial",sans-serif;
+    text-transform: uppercase;
+}
+.recipes_list {
+	margin-right: 20px;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.recipes_column_item {
+	display: list-item;
+    pointer-events: auto;
+    margin-bottom: .8em;
+}
+.recipes_column_link {
+	color: #515154;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: "Arial",sans-serif;
+    cursor: pointer;
+}
+.main_nav {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 0 22px;
+}
